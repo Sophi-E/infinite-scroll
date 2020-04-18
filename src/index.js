@@ -32,7 +32,7 @@ async function showPosts() {
     postsContainer.appendChild(postEl);
   });
 }
-
+showPosts();
 // Show loader & fetch more posts
 function showLoading() {
   loading.classList.add("show");
